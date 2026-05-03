@@ -1,0 +1,17 @@
+pyinstaller --noconsole --onefile ^
+--icon=assets/SL_ICO.ico ^
+--add-data "assets;assets" ^
+--add-data "logos;logos" ^
+--collect-submodules scipy ^
+--collect-submodules numpy ^
+--hidden-import=pandas ^
+--hidden-import=numpy ^
+--hidden-import=matplotlib ^
+--hidden-import=scipy ^
+--hidden-import=customtkinter ^
+--hidden-import=tkinter ^
+--hidden-import=darkdetect ^
+--hidden-import=PIL ^
+--hidden-import=PySide6 ^
+--hidden-import=shiboken6 ^
+GUI.py
