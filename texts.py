@@ -13,10 +13,10 @@ TOOLTIPS = {
     "daily_variation": "Daily temperature variation amplitude in °C.",
     "interval_temperature": "Time step in seconds for temperature data.",
     "azimuth": "Azimuth angle of the surface in degrees.",
-    "inclination": "Inclination angle of the surface in degrees.",
+    "inclination": "Surface inclination angle (in degrees) relative to the horizontal plane, measured opposite to the incoming solar radiation direction.",
     "albedo": "Albedo (reflectivity) of the surface (0 to 1).",
     "source": "Select the source for reflected radiation: ground or one of the inclined surfaces.",
-    "supporting": "The link will be available upon release of version 1.1",
+    "supporting": "https://doi.org/10.1016/j.tws.2026.115075",
     "report": "https://docs.google.com/forms/d/e/1FAIpQLSe1nHx_YiU_jzNBmMExe-iIQoGppBR-7JkLUv9VRZ3KCQ1aqw/viewform?usp=dialog",
     "self_shadowing": "Generate additional solar position files (time, hour angle, declination) for use in self-shadowing analyses, shading models, or advanced post-processing.",
 }
@@ -53,6 +53,6 @@ SOLAR_CONSTANT = 1366.1
 KT_COOLING = 0.2
 KT_HEATING = 0.8
 
-SUPPORTING_PUBLICATION_LINK = ""
+SUPPORTING_PUBLICATION_LINK = "https://doi.org/10.1016/j.tws.2026.115075"
 REPORT_RESULTS_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSe1nHx_YiU_jzNBmMExe-iIQoGppBR-7JkLUv9VRZ3KCQ1aqw/viewform?usp=dialog"
 
