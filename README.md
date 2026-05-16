@@ -16,6 +16,16 @@ The executable version of the tool is available in the Releases section:
 
 Download the latest `.exe` file under "Assets".
 
+## Running from Source
+
+To run the tool directly from the Python source files, execute:
+
+```bash
+python GUI.py
+```
+
+The `GUI.py` file launches the graphical user interface of the application.
+
 ## Key Features
 
 - Generation of synthetic air shade temperature profiles
@@ -51,8 +61,14 @@ University of Minho, ISISE
 
 This tool is archived and citable via Zenodo:
 
-https://doi.org/10.5281/zenodo.20012472
+[https://doi.org/10.5281/zenodo.20012472](https://doi.org/10.5281/zenodo.20012472)
+
+## Supporting Publication
+
+The methodology implemented in this tool is described in:
+
+[https://doi.org/10.1016/j.tws.2026.115075](https://doi.org/10.1016/j.tws.2026.115075)
 
 ## Related Tool
 
-This tool can be used together with the **Self-Shadowing Analysis** tool for advanced evaluation of solar differential exposure effects.
+This tool can be used together with the [**Self-Shadowing Analysis**](https://github.com/marcoabreufilho/self-shadowing-analysis) tool for advanced evaluation of solar differential exposure effects.
